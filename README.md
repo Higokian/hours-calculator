@@ -32,8 +32,8 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
-Jason Ritter [Discord: higokian](discordapp.com/users/472199088113188864)
+Jason Ritter 
+[Discord: higokian](discordapp.com/users/472199088113188864)
 
 
 
