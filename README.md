@@ -1,4 +1,4 @@
-# Hours Calculator
+# Wage Calculator
 
 This calculator calculates your hours and OT worked.
 
