@@ -5,10 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="src/css/layout.css">
   <meta name="author" content="Front End Colab">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
   <title>Wage Calculator</title>
 </head>
 
@@ -20,6 +21,35 @@
       </h1>
     </div>
   </header>
+  <main>
+    <form class="calculator">
+      <div class="salaryInput">
+
+        <label for="salary">Salary $</label>
+        <input type="number" id="salary">
+
+        <label for="timeframe">per</label>
+        <select name="timeframe" id="timeframe">
+          <option value ="hour">hour</optio>
+          <option value ="week">week</option>
+          <option value ="bi-weekly">bi-weekly</option>
+        </select>
+
+      </div>
+      <div class="hoursWorked">
+
+        <label for="hoursPerWeek">Hours Per Week</label>
+        <input type="number" id="hoursPerWeek" class="textbox">
+
+        <label for="daysPerWeek">Days Per Week</label>
+        <input type="number" id="daysPerWeek" class="textbox">
+
+      </div>
+
+      <input type="submit" value="Calculate" id="calculate">
+
+    </form>
+  </main>
 </body>
 <script src="src/js/app.js"></script>
 </html>
