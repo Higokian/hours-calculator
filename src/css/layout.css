@@ -17,14 +17,10 @@ main {
     box-shadow: 3px 3px 15px rgb(68, 80, 91);
 }
 
-#salary, #timeframe {
+#salary {
     width: 50px;
     height: 30px;
     border-radius: 7px;
-}
-
-#timeframe {
-    width: 80px;
 }
 
 .hoursWorked label {
@@ -56,6 +52,11 @@ main {
 }
 
 #calculate:hover {
+    
     background-color: blueviolet;
     cursor: pointer;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
+
