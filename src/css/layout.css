@@ -14,7 +14,7 @@ main {
     background-color: rgb(111, 113, 248);
     border-radius: 10px;
     border: solid 3px rgb(5, 5, 48);
-    box-shadow: 3px 3px 15px gray;
+    box-shadow: 3px 3px 15px rgb(68, 80, 91);
 }
 
 #salary, #timeframe {
