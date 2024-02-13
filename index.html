@@ -25,15 +25,9 @@
     <form class="calculator">
       <div class="salaryInput">
 
-        <label for="salary">Salary $</label>
-        <input type="number" id="salary">
+        <label for="salary">Salary per hour $</label>
+        <input type="number" id="salary" required>
 
-        <label for="timeframe">per</label>
-        <select name="timeframe" id="timeframe">
-          <option value ="hour">hour</option>
-          <option value ="week">week</option>
-          <option value ="bi-weekly">bi-weekly</option>
-        </select>
 
       </div>
       <div class="hoursWorked">
@@ -42,7 +36,7 @@
         <input type="number" id="overtime" class="textbox">
 
         <label for="hoursPerWeek">Hours Per Week</label>
-        <input type="number" id="hoursPerWeek" class="textbox">
+        <input type="number" id="hoursPerWeek" class="textbox" required>
 
         <p id="result"></p>
       </div>

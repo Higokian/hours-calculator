@@ -17,14 +17,10 @@ main {
     box-shadow: 3px 3px 15px gray;
 }
 
-#salary, #timeframe {
+#salary {
     width: 50px;
     height: 30px;
     border-radius: 7px;
-}
-
-#timeframe {
-    width: 80px;
 }
 
 .hoursWorked label {
