@@ -1,6 +1,5 @@
 function Calculate() {
     const salaryInput = document.getElementById('salary');
-    const overtimeInput = document.getElementById('overtime');
     const hoursPerWeekInput = document.getElementById('hoursPerWeek');
     const resultDisplay = document.getElementById('result');
     const calculateButton = document.getElementById('calculate');
